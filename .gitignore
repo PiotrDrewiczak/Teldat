@@ -1,0 +1,54 @@
+# Ignorowanie folderów budowania
+bin/
+obj/
+out/
+
+# Ignorowanie plików użytkownika Visual Studio
+.vs/
+.vscode/
+
+# Ignorowanie plików użytkownika Rider i innych IDE
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorowanie plików tymczasowych, dzienników i systemowych
+*.log
+[Tt]emp/
+*.tmp
+*.swp
+*~
+
+# Ignorowanie plików publikacji
+.publish/
+
+# Ignorowanie pakietów NuGet
+*.nupkg
+# Foldery zainstalowanych pakietów
+packages/
+# Folder cache dla narzędzia NuGet
+.nuget/
+# Folder tymczasowy projektu
+project.lock.json
+project.fragment.lock.json
+
+# Ignorowanie zależności dotnet CLI
+project.assets.json
+**/Properties/launchSettings.json
+
+# Ignorowanie plików utworzonych przez dotnet CLI
+*.DotSettings.user
+.vscode/
+
+# Ignorowanie plików związanych z konfiguracją i debugowaniem
+appsettings.Development.json
+appsettings.Local.json
+launchSettings.json
+
+# Ignorowanie plików kompilacji automatycznej
+*.ide
+*.csproj.user
+*.dbmdl
+*.jfm
